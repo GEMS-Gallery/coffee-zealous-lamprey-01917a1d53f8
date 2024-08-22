@@ -33,20 +33,15 @@ code {
 
 .user-message {
   align-self: flex-end;
-  background-color: #3498db;
-  color: white;
 }
 
 .ai-message {
   align-self: flex-start;
-  background-color: #2ecc71;
-  color: white;
 }
 
 .input-container {
   display: flex;
   padding: 20px;
-  background-color: white;
 }
 
 .input-field {
@@ -69,7 +64,6 @@ code {
   width: 10px;
   float: left;
   margin: 0 1px;
-  background-color: #9E9EA1;
   display: block;
   border-radius: 50%;
   opacity: 0.4;
