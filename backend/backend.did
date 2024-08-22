@@ -1,0 +1,11 @@
+type Message = 
+ record {
+   content: text;
+   role: text;
+   timestamp: int;
+ };
+service : {
+  clearConversation: () -> ();
+  getConversationHistory: () -> (vec Message) query;
+  sendMessage: (text) -> (text);
+}
